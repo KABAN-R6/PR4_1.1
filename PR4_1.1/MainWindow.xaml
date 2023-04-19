@@ -21,7 +21,7 @@
             </DataGrid.Columns>
         </DataGrid>
         <Button Content="путь" Margin="710,28,38,367" Click="Button_Click_2"/>
-        <Button Content="отель" Margin="710,76,38,318"/>
+        <Button Content="отель" Margin="710,76,38,318" Click="Button_Click_3"/>
         <Button Content="клиент" Margin="710,124,38,269"/>
 
 

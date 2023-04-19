@@ -58,5 +58,10 @@ namespace PR4_1._1
         {
 
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
