@@ -10,7 +10,7 @@
         <Button Content="Добавить" Height="NaN" Margin="0,362,659,10" Width="NaN" Click="Button_Click_1"/>
         <Button Content="Изменить" Height="NaN" Margin="146,362,513,10" Width="NaN" />
         <Button Content="Удалить" Height="NaN" Margin="292,362,367,10" Width="NaN"/>
-        <DataGrid x:Name="dataGrid" Margin="0,10,124,0" Height="320" VerticalAlignment="Top" AutoGenerateColumns="False" >
+        <DataGrid x:Name="dataGrid" Margin="0,10,124,0" Height="320" VerticalAlignment="Top" AutoGenerateColumns="False" SelectionChanged="dataGrid_SelectionChanged" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Дорога" Binding="{Binding Routee.Name }"></DataGridTextColumn>
                 <DataGridTextColumn Header="Отель" Binding="{Binding Hotell.Name }"></DataGridTextColumn>

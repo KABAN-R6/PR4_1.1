@@ -53,5 +53,10 @@ namespace PR4_1._1
         {
 
         }
+
+        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
