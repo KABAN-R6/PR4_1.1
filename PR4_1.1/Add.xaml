@@ -1,0 +1,24 @@
+﻿<Window x:Class="PR4_1._1.Add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR4_1._1"
+        mc:Ignorable="d"
+        Title="Add" Height="450" Width="800">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Text="Назначение" Margin="0,341,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="Отель" Margin="0,104,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="Клиент" Margin="0,148,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="цена" Margin="0,60,0,0"/>
+        <Button Content="Назад" Margin="739,16,10,379"/>
+        <TextBox TextWrapping="Wrap" Text="{Binding Routee.Name }" Margin="98,341,307,54"/>
+        <TextBox TextWrapping="Wrap" Text="{Binding Hotell.Name}" Margin="98,104,307,291" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox TextWrapping="Wrap" Text="{Binding Price}" Margin="98,60,307,335" TextChanged="TextBox_TextChanged"/>
+        <TextBox TextWrapping="Wrap" Text="{Binding Humann.LastName}" Margin="98,148,307,247"/>
+        <TextBox TextWrapping="Wrap" Text="{Binding Humann.FirstName}" Margin="98,192,307,203"/>
+        <TextBox TextWrapping="Wrap" Text="{Binding Humann.MiddleName}" Margin="98,236,307,159" TextChanged="TextBox_TextChanged_2"/>
+        <Button Content="Применить" Margin="0,388,504,0" HorizontalAlignment="Right" Width="198" Click="Button_Click"/>
+
+    </Grid>
+</Window>

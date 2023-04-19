@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="115e6e88a90c4de9b65eb31b1b8c4ef3" Name="Diagram1">
+        <EntityTypeShape EntityType="PR4Model.Cityy" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.Countryy" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.Hotell" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.Humann" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.Permit" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.Routee" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.Servicce" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PR4Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="PR4Model.FK_Routee_Cityy" ManuallyRouted="false" />
+        <AssociationConnector Association="PR4Model.FK_Routee_Countryy" ManuallyRouted="false" />
+        <AssociationConnector Association="PR4Model.FK_Hotell_Servicce" ManuallyRouted="false" />
+        <AssociationConnector Association="PR4Model.FK_Permit_Hotell" ManuallyRouted="false" />
+        <AssociationConnector Association="PR4Model.FK_Permit_Humann" ManuallyRouted="false" />
+        <AssociationConnector Association="PR4Model.FK_Permit_Routee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
